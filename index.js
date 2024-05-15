@@ -90,6 +90,27 @@ if(array.includes(number)){
 }else{
     console.log('არ შეიცავს')
 }
+
+//დაწერეთ პროგრამა, რათა შეამოწმოთ არის თუ არა ორი მასივი ტოლი.
+let array1 = [1,2,3]
+let array2 = [4,5,6]
+if(array1 === array2){
+    console.log('ტოლია')
+}else{
+    console.log('aარ არის ტოლი')
+}
+///დაწერეთ პროგრამა მასივში სიდიდით მეორე რიცხვის მოსაძებნად.
+let arr = [15,10,20,30]
+let highest = arr[0]
+let secondHighest= arr[0]
+for(let i = 0;i < arr.length;i++){
+    if(arr[i] > highest ){
+        secondHighest = highest
+        highest = arr[i]
+    }
+}
+console.log(highest,secondHighest) //amis gaazreba minda
+
 //დაწერეთ პროგრამა მრავალ მასივებს შორის საერთო ელემენტების მოსაძებნად.
 let array1 = ['ronaldo','messi', 'iniesta','anry']
 let array2 = ['rivaldo','puyol', 'villa','gaucho']
@@ -97,8 +118,5 @@ let array3 = ['maradona','messi', 'iniesta','bergcamp']
 let newArray = array1.concat(array2,array3)
 console.log(newArray)
 const findElement = newArray.find()   // ვეღარ გავაგრძელე.(((
-//დაწერეთ პროგრამა, რათა შეამოწმოთ არის თუ არა ორი მასივი ტოლი.
 //დაწერეთ პროგრამა მასივში კონკრეტული ელემენტის გავრცელების რაოდენობის დასათვლელად.
-//დაწერეთ პროგრამა, რათა შეამოწმოთ არის თუ არა ორი მასივი ტოლი.
-///დაწერეთ პროგრამა მასივში სიდიდით მეორე რიცხვის მოსაძებნად.
 
