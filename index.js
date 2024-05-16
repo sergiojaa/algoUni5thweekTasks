@@ -134,5 +134,5 @@
 //     return counter
 // }
 // console.log(elementCount(array,1))
-
+📍 Part of the Electricity Application Development Team
 
